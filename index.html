@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <form name="frm">
+     <br>    
+        Ingresa tu edad:
+    <input type="text" NAME="edad" size=15></br>
+    <input type="button" NAME="Boton"
+           value="Comprobar edad"
+           onclick="edadc(this.form)">
+  </form>
+  <script>
+  function edadc(){
+  let edad
+  edad=parseInt(frm.edad.value)
+  if(edad>17){
+    alert("Eres mayor de edad");
+  }
+  else{
+    alert("Eres menor de edad") ;   
+  }
+
+}
+  </script>
+</body>
+</html>
